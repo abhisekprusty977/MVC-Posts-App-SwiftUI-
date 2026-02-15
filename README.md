@@ -11,20 +11,18 @@ A simple iOS application built using SwiftUI and MVC Architecture that fetches p
 - ✅ Clean Folder Structure
 # 🏗 Architecture
 This project follows the MVC (Model–View–Controller) design pattern.
-# MVCPostsApp
-# │
-# ├── Models
-# │   └── Product.swift
-# │
-# ├── Views
-# │   ├── SplashView.swift
-# │   └── PostListView.swift
-# │
-# ├── Controllers
-# │   └── PostViewModel.swift
-# │
-# └── Services
-#    └── APIService.swift
+## 📂 Folder Structure
+
+- **MVCPostsApp**
+  - **Models**
+    - Product.swift
+  - **Views**
+    - SplashView.swift
+    - PostListView.swift
+  - **Controllers**
+    - PostViewModel.swift
+  - **Services**
+    - APIService.swift
 # Model
 Responsible for data structure and decoding API response.
 # View
@@ -48,16 +46,12 @@ Example response:
     }
   ]
 }
-# 📲 App Flow
-App Launch
-    ↓
-Splash Screen (2 seconds)
-    ↓
-API Request
-    ↓
-Products Loaded
-    ↓
-Displayed in List View
+## 📲 Application Flow
+1. **App Launch**
+2. **Splash Screen appears (2 seconds)**
+3. **API Request is triggered**
+4. **Products are fetched from server**
+5. **Data is displayed in List View**
 # 🧩 Technologies Used
 - Swift 5
 - SwiftUI
